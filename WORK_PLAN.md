@@ -22,15 +22,62 @@ Full problem statement, hypothesis, and experimental design: see README.md.
 | Project proposal presentation | Week 5 | Feedback only | Use case, problem statement, novelty, data/models/evaluation plan, realistic plan |
 | Midterm presentation | Week 9 | 20% | Refined definition, review of at least 3 relevant papers (comparison table), dataset obtained/created, EDA, working baseline, initial measurable results, risks, completion plan |
 | Final presentation | Week 13 | 40% | Complete technical argument: achievements with evidence, reproducible methodology, results, conclusions; must include at least one trained or fine-tuned model |
-| Final GitHub submission | Timing to confirm: lecture slides say semester end + 2 weeks; public syllabus says end of course | 40% | Structured repo: README, slides/, src/, notebooks/, data/ (samples + access instructions), results/, requirements, reproducibility |
+| Final GitHub submission | Internal readiness: 2027-01-17; official cutoff to confirm (see dated schedule below) | 40% | Structured repo: README, slides/, src/, notebooks/, data/ (samples + access instructions), results/, requirements, reproducibility |
 
-Timing caveat: weeks 5/9/13 are approximate course milestones, not confirmed calendar dates. Confirm the repository submission date in the current course announcements before scheduling a deadline.
+Presentation dates are provisional mappings of approximate course weeks, not lecturer-confirmed bookings. See the dated schedule below.
 
 Course policy: AI tools are encouraged for code and slides, provided the project demonstrates novelty and the team keeps full ownership of all submitted material.
 
 Course bots exist for each milestone (Project Advisor, Proposal Reviewer, Midterm Report Reviewer, Final Presentation Reviewer, Repository Submission Validator). They are ChatGPT GPTs linked from the course bots page. They have been identified but not yet run; the phase plan includes a review pass with the matching bot at each milestone.
 
 Relevant course reading (from the syllabus week topics, course textbook "Building Language AI: From Tokens to Agents"): synthetic data generation and LLM judges (Ch. 15, 42, 46), embeddings and retrieval-augmented generation including DPR (Ch. 31, 32, 35), fine-tuning and PEFT (Ch. 16, 17).
+
+## 2A. Dated schedule and finish line
+
+Updated 2026-10-26. All dates use Asia/Jerusalem. Internal targets below are a proposed work schedule, not official course deadlines, assignments of responsibility, or claims that work is complete.
+
+### Verified anchors and provisional dates
+
+- HIT's official regular Semester A 5787 calendar starts **Sunday, 2026-10-18** and ends **Sunday, 2027-01-17**. Exams begin 2027-01-18. Source: https://www.hit.ac.il/students/calender/
+- This course meets on Mondays. Counting the first course week from Monday, 2026-10-19 gives the provisional presentation dates below. The semester's listed Oct27 and Dec6 non-teaching days do not fall on this course's Monday meetings. Rescheduling by the lecturer can still change the mappings.
+- Sasha's course timeline in slides 1022/1023 is proposal in week 5, interim in week 9 (generated data, EDA, baseline), and complete-project presentation in week 13. The work schedule below follows that order. His shared project proposal and dataset recipe supply the technical sequence, not a separate dated schedule.
+- The current Moodle announcements forum was empty when checked on 2026-10-26; no dated presentation/submission announcement was available there. The linked student-portal syllabus was unavailable. These provisional dates must not be presented as confirmed class appointments.
+
+| Course checkpoint | Provisional course date | Internal ready-by target |
+| --- | --- | --- |
+| Week 5 proposal | Monday, 2026-11-16 | Thursday, 2026-11-12 |
+| Week 9 interim: generated data + EDA + baseline | Monday, 2026-12-14 | Thursday, 2026-12-10 |
+| Week 13 complete-project presentation | Monday, 2027-01-11 | Thursday, 2027-01-07 |
+| Ready-to-submit repository | Semester end: Sunday, 2027-01-17 | Sunday, 2027-01-17 |
+
+### No routine work after semester end
+
+The project goal is a submission-ready repository by **2027-01-17**, including reproducibility, slides, results, README, permitted data artifacts and the repository-validator review. Core implementation and analysis finish before the final presentation, leaving Jan8-17 for final packaging, feedback and a clean-environment run.
+
+**2027-01-18 through 2027-01-31 is reserved solely for unexpected fixes, not planned development.** This is the requested two-week contingency window after semester end, not a verified official submission deadline. Slide 1023 says semester end + two weeks, while slide 1022 says two weeks after the last class (the Monday mapping would be Jan25); the public syllabus says course end. Confirm the actual official cutoff before relying on any post-semester grace. The Jan17 internal finish line is earlier than all of these two-week interpretations.
+
+### Critical path and dated outputs
+
+| Work block | Internal target | Required output |
+| --- | --- | --- |
+| Dataset choice and feasibility | 2026-11-01 | Dataset comparison, rights/privacy checks, extraction feasibility (#1) |
+| Extraction and inventory | 2026-11-08 | Reproducible case-solution pairs, inventory and initial EDA (#2-3) |
+| Proposal ready | 2026-11-12 | Evidence-based proposal deck, review and rehearsal (#15) |
+| Symptoms, annotation pilot, frozen splits | 2026-11-22 | Symptom extraction, label guidelines, reviewed pilot/cost estimate, split manifest (#4-5, #7) |
+| Annotation validation | 2026-11-29 | Multi-model agreement and reviewed disagreements (#6) |
+| Generation, QC, independent evaluation, baseline | 2026-12-06 | Generated data + quality report + held-out set + baseline numbers (#8-11) |
+| Interim ready | 2026-12-10 | Paper comparison table, EDA, baseline and risk/completion plan (#16) |
+| DPR-Full | 2026-12-20 | Logged fine-tuned complete-description model (#12) |
+| DPR-Partial | 2026-12-27 | Matched-budget missing-symptom model (#13) |
+| Analysis complete | 2027-01-03 | Stage/observability results, error analysis, limitations (#14) |
+| Final talk ready | 2027-01-07 | Complete results-based deck, review and rehearsal (#17) |
+| Submission-ready release | 2027-01-17 | Reproducible repository with all required artifacts (#18) |
+
+Every issue has its own planned start, internal target and dependencies; [TASKS.md](TASKS.md) is the full dated index. Frozen case/solution splits precede all synthetic generation. Independent evaluation and baseline work run alongside training-data generation after split/annotation prerequisites. Generation cost estimates are planning outputs, not spending approval.
+
+### If the plan slips
+
+Check progress at each target. Protect a valid controlled comparison and the Jan17 finish line: narrow dataset size or use the smaller matched bi-encoder fallback before adding an optional BM25 baseline or extra model family. Keep at least three-paper literature coverage, data-quality checks, equal-budget comparison, human-reviewed evaluation and reproducibility. A required course-scope change must be confirmed rather than silently dropped. Do not assume Liza has agreed to dates or assign anyone without agreement.
 
 ## 3. Phase plan
 
@@ -99,6 +146,8 @@ Relevant course reading (from the syllabus week topics, course textbook "Buildin
 ## 6. Sources
 
 Course-linked materials:
+- Official HIT 5787 academic calendar: https://www.hit.ac.il/students/calender/
+- Current course announcements (login required): https://md.hit.ac.il/mod/forum/view.php?id=972024
 - Actual HIT Moodle course (login required): https://md.hit.ac.il/course/view.php?id=27808
 - Lecture slide library linked by Moodle: https://drive.google.com/drive/folders/1-l4pdsXg-nfKQs0t5ZkxjIjOwhwkmv_Z?usp=sharing
 - Reviewed relevant lecture PDFs: 1022 Course Structure; 1023 Project Requirements; 1041 Student Reviews example; 1042 Project Examples; 1221 Synthetic Data; 1222 Labeling; 1223 Weak Supervision; 1224 Anonymization; 1241 Text Metrics; 1242 LLM Judges; 1321 PEFT; 1323 Representation Fine-Tuning; 1401 Vector Stores; 1402 RAG Intro; 1403 RAG Evaluation; 1404 Advanced RAG. Slides are referenced, not copied into this repository.
