@@ -1,42 +1,57 @@
 # EvidenceRun
 
-Diagnostic Evidence-Aware Synthetic Supervision for Runbook Retrieval
+Symptom-Aware Retrieval for Technical Support
 
 Course project for "Building Conversational AI Systems with LLMs and Agents" (HIT, Dr. Alexander Apartsin). Authors: Liza and Shai.
 
-## Motivation and use case
+## Problem
 
-During a production incident, an on-call engineer often gets an alert, a few logs, and a partial description of the symptoms before the root cause is known. The goal is to help the engineer rank the most relevant operational runbooks. Early in an incident, several runbooks may match similar symptoms, and the information that tells them apart may still be missing.
+People contact technical support and describe their problems in natural language. Standard retrieval methods (e.g., embedding-based RAG) can match these descriptions to solutions (runbooks), assuming all relevant symptoms are reported. In practice, descriptions are often incomplete for two reasons:
+
+1. Some symptoms appear only at later stages of the problem.
+2. Users may overlook or fail to recognize certain symptoms.
+
+## Proposed hypothesis
+
+The project direction, refined with the course lecturer, proposes the following hypothesis, to be tested in this project rather than an established finding:
+
+A retrieval model trained to account for frequently missing symptoms may outperform models trained on complete case descriptions.
 
 ## Research question
 
-Can diagnostic evidence-aware synthetic incident generation improve runbook retrieval under incomplete information, particularly when candidate runbooks share overlapping symptoms?
+Does training on realistic, incomplete symptom descriptions improve solution retrieval compared with training on complete symptom descriptions?
 
-## Novelty
+## Data
 
-Synthetic query generation for training retrievers has been explored (InPars, GPL, Promptagator), and runbook retrieval systems such as Sentry ask-runbooks exist. Our contribution is not retrieval or synthetic data generation itself. We test a generation approach that explicitly controls the availability of diagnostic evidence and the signals that distinguish similar runbooks.
+The planned dataset consists of case-solution pairs derived from existing technical support corpora. For each case, the goal is to derive a consolidated symptom list linked to its solution, with each symptom annotated with:
 
-We compare three ways of generating synthetic training data:
+- Stage: early, intermediate, or advanced (when the symptom typically appears)
+- Observability: high, medium, or low (how likely a user is to notice and report it)
 
-1. Naive LLM generation
-2. Generic attributed generation, with style and noise attributes
-3. Diagnostic evidence-aware generation, with control over partial diagnostic information and distinguishing signals
+Candidate source datasets (tentative, under evaluation) include IBM TechQA, Microsoft MSDialog, Stack Exchange (Super User, Server Fault, Ask Ubuntu), Tobi-Bueck Customer Support Tickets, and iFixit Troubleshooting. These corpora do not provide symptom lists, stage or observability annotations, or explicit case-solution links in the required form; deriving and validating them is part of the research.
 
-## Data and methods
+## Planned dataset creation pipeline
 
-Main data source: Prometheus Operator Runbooks (about 108 documents in the public catalog, subject to cleaning and suitability checks). We build retrieval cards from these documents and use an LLM to generate labeled incident descriptions.
+1. Extract cases: problem descriptions and candidate solutions from the chosen source dataset.
+2. Split cases into training, validation, and test sets before any synthetic generation, to prevent leakage between versions of the same case.
+3. Extract symptoms: use an LLM to build a consolidated symptom list per case.
+4. Annotate symptoms: use an LLM to label each symptom with stage and observability.
+5. Validate annotations: multiple LLMs independently extract and label; disagreements are flagged for review. Inferred symptoms are not treated as confirmed observations.
+6. Generate synthetic descriptions: for each case, three natural-language descriptions at different stages, sampling symptoms by stage and observability.
+7. Quality control: generated descriptions must contain only eligible symptoms, stay technically consistent, and keep the original solution valid.
 
-## Evaluation
+## Planned experimental comparison
 
-- Evaluation on runbooks not seen during training
-- Separate analysis of cases with overlapping symptoms and incomplete diagnostic information
-- Quality metrics for the synthetic data, leakage checks, and error analysis
-- A small human evaluation set for cases where several runbooks may be relevant, to reduce reliance on synthetic evaluation alone
+1. Baseline: off-the-shelf embedding models.
+2. DPR-Full: DPR fine-tuned on complete case descriptions.
+3. DPR-Partial: DPR fine-tuned on synthetic descriptions with missing symptoms.
+
+Retrieval accuracy would be evaluated with Recall@K and MRR, analyzed across symptom stages and observability levels.
 
 ## Scope
 
-The focus is data generation, fine-tuning, and evaluation, not a complete incident response system.
+The focus is data generation, fine-tuning, and evaluation, not a complete technical support system.
 
 ## Status
 
-Idea stage. Proposal sent to the course lecturer for feedback; the research question may be refined.
+Proposed methodology, refined per lecturer feedback (October 2026).
