@@ -1,0 +1,19 @@
+site,step,count
+askubuntu,all_posts_rows,945111
+askubuntu,questions,414451
+askubuntu,questions_with_AcceptedAnswerId,136162
+askubuntu,accepted_id_resolves_to_answer_of_same_question,136151
+askubuntu,and_troubleshooting_lexical_filter,97375
+askubuntu,and_question_body_>=20_words,96593
+askubuntu,  of which: no PostHistory rows at all,0
+askubuntu,  of which: PostHistory lacks Initial Body (type 2),0
+askubuntu,and_>=1_pre_first_answer_comment_or_body_edit  == STAGE-A FRAME,53158
+serverfault,all_posts_rows,844092
+serverfault,questions,325169
+serverfault,questions_with_AcceptedAnswerId,153269
+serverfault,accepted_id_resolves_to_answer_of_same_question,153246
+serverfault,and_troubleshooting_lexical_filter,106153
+serverfault,and_question_body_>=20_words,105853
+serverfault,  of which: no PostHistory rows at all,0
+serverfault,  of which: PostHistory lacks Initial Body (type 2),4
+serverfault,and_>=1_pre_first_answer_comment_or_body_edit  == STAGE-A FRAME,42424

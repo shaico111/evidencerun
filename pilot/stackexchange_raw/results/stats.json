@@ -1,0 +1,168 @@
+{
+ "askubuntu": {
+  "frame_size": 53158,
+  "funnel": [
+   [
+    "all_posts_rows",
+    945111
+   ],
+   [
+    "questions",
+    414451
+   ],
+   [
+    "questions_with_AcceptedAnswerId",
+    136162
+   ],
+   [
+    "accepted_id_resolves_to_answer_of_same_question",
+    136151
+   ],
+   [
+    "and_troubleshooting_lexical_filter",
+    97375
+   ],
+   [
+    "and_question_body_>=20_words",
+    96593
+   ],
+   [
+    "  of which: no PostHistory rows at all",
+    0
+   ],
+   [
+    "  of which: PostHistory lacks Initial Body (type 2)",
+    0
+   ],
+   [
+    "and_>=1_pre_first_answer_comment_or_body_edit  == STAGE-A FRAME",
+    53158
+   ]
+  ],
+  "audit": {
+   "n": 100,
+   "accepted_found": 100,
+   "has_initial_history": 100,
+   "two_plus": 42,
+   "three_plus": 16,
+   "self_contained_auto": 84,
+   "two_plus_selfcontained_leakfree": 31,
+   "three_plus_selfcontained_leakfree": 12,
+   "leakage_suspected": 14,
+   "distinct_target_answers": 31,
+   "self_answered": 26,
+   "accepted_is_first": 82,
+   "final_differs": 44,
+   "cutoff_by_comment": 8
+  },
+  "pool": {
+   "n": 2000,
+   "accepted_found": 2000,
+   "has_initial_history": 2000,
+   "two_plus": 785,
+   "three_plus": 310,
+   "self_contained_auto": 1757,
+   "two_plus_selfcontained_leakfree": 588,
+   "three_plus_selfcontained_leakfree": 218,
+   "leakage_suspected": 243,
+   "distinct_target_answers": 588,
+   "self_answered": 543,
+   "accepted_is_first": 1658,
+   "final_differs": 924,
+   "cutoff_by_comment": 113
+  },
+  "strata_available": {
+   "auto_positive": 640,
+   "uncertain": 665,
+   "auto_negative": 491
+  },
+  "strata_taken": {
+   "auto_positive": 40,
+   "uncertain": 40,
+   "auto_negative": 20
+  }
+ },
+ "serverfault": {
+  "frame_size": 42424,
+  "funnel": [
+   [
+    "all_posts_rows",
+    844092
+   ],
+   [
+    "questions",
+    325169
+   ],
+   [
+    "questions_with_AcceptedAnswerId",
+    153269
+   ],
+   [
+    "accepted_id_resolves_to_answer_of_same_question",
+    153246
+   ],
+   [
+    "and_troubleshooting_lexical_filter",
+    106153
+   ],
+   [
+    "and_question_body_>=20_words",
+    105853
+   ],
+   [
+    "  of which: no PostHistory rows at all",
+    0
+   ],
+   [
+    "  of which: PostHistory lacks Initial Body (type 2)",
+    4
+   ],
+   [
+    "and_>=1_pre_first_answer_comment_or_body_edit  == STAGE-A FRAME",
+    42424
+   ]
+  ],
+  "audit": {
+   "n": 100,
+   "accepted_found": 100,
+   "has_initial_history": 100,
+   "two_plus": 37,
+   "three_plus": 7,
+   "self_contained_auto": 88,
+   "two_plus_selfcontained_leakfree": 28,
+   "three_plus_selfcontained_leakfree": 4,
+   "leakage_suspected": 14,
+   "distinct_target_answers": 28,
+   "self_answered": 23,
+   "accepted_is_first": 79,
+   "final_differs": 44,
+   "cutoff_by_comment": 5
+  },
+  "pool": {
+   "n": 2000,
+   "accepted_found": 2000,
+   "has_initial_history": 2000,
+   "two_plus": 743,
+   "three_plus": 257,
+   "self_contained_auto": 1796,
+   "two_plus_selfcontained_leakfree": 605,
+   "three_plus_selfcontained_leakfree": 202,
+   "leakage_suspected": 184,
+   "distinct_target_answers": 605,
+   "self_answered": 555,
+   "accepted_is_first": 1555,
+   "final_differs": 843,
+   "cutoff_by_comment": 77
+  },
+  "strata_available": {
+   "auto_positive": 644,
+   "uncertain": 533,
+   "auto_negative": 660
+  },
+  "strata_taken": {
+   "auto_positive": 40,
+   "uncertain": 40,
+   "auto_negative": 20
+  }
+ }
+}

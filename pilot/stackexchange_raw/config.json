@@ -1,0 +1,14 @@
+{
+  "random_seed": 42,
+  "sites": {
+    "askubuntu": {"archive": "askubuntu.com.7z", "url": "https://archive.org/download/stackexchange/askubuntu.com.7z", "ia_sha1": "15102a3bfa4578cd67ed34df8952ed5064184c7a", "ia_size": 1071610861},
+    "serverfault": {"archive": "serverfault.com.7z", "url": "https://archive.org/download/stackexchange/serverfault.com.7z", "ia_sha1": "d9e7c0987f9e11c44d279aa95e1345f8563b1f81", "ia_size": 859606467}
+  },
+  "audit_sample_per_site": 100,
+  "pool_per_site": 2000,
+  "pool_oversample_for_dedupe": 2600,
+  "stratified_queue_per_site": {"auto_positive": 40, "uncertain": 40, "auto_negative": 20},
+  "stage_a_filter": "accepted answer id resolves to an answer of this question in Posts.xml; title/body match lexical troubleshooting regex (se_common.TROUBLE_RE); question body >=20 words; >=1 pre-first-answer interaction candidate (any question comment, or any body edit in PostHistory, strictly before first answer)",
+  "cutoff_policy": "min(first published answer, earliest non-owner question comment overlapping the accepted answer by >=2 distinctive 4-gram shingles); evidence strictly before cutoff",
+  "min_new_fact_tokens": 8
+}

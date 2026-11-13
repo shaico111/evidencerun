@@ -1,0 +1,51 @@
+{
+ "checked_on": "2026-11-13",
+ "item": "https://archive.org/details/stackexchange",
+ "snapshot_note": "Internet Archive 'stackexchange' item; per-site 7z last modified 2024-04-07 (before Stack Exchange's July 2024 change of dump process). Exact dump quarter is not stated inside the archive; treat as ~2024-04 snapshot.",
+ "license": {
+  "content": "CC BY-SA 4.0 per the Internet Archive item description (older posts CC BY-SA 2.5/3.0 depending on date; per-post licence is not recorded in the dump rows).",
+  "attribution_required": "Source link per question, author names + profile links per Q/A, as described on the item page.",
+  "uncertainties": [
+   "Stack Exchange 2024 reportedly restricted new dumps (non-commercial, no LLM training); the April-2024 IA copy predates it but its permitted use for model training/redistribution is unresolved -> HUMAN/LEGAL REVIEW REQUIRED.",
+   "No raw third-party text is committed; only IDs, URLs, statistics and short excerpts."
+  ],
+  "sources_checked": [
+   "https://archive.org/metadata/stackexchange",
+   "https://creativecommons.org/licenses/by-sa/4.0/",
+   "https://www.devclass.com/development/2024/07/30/stack-exchange-restricts-access-to-dump-of-user-contributed-data-critics-complain-this-contradicts-license/1625192",
+   "https://meta.stackexchange.com/questions/2677/database-schema-documentation-for-the-public-data-dump-and-sede"
+  ]
+ },
+ "sites": {
+  "askubuntu": {
+   "url": "https://archive.org/download/stackexchange/askubuntu.com.7z",
+   "size_bytes": 1071610861,
+   "expected_size": 1071610861,
+   "sha1": "15102a3bfa4578cd67ed34df8952ed5064184c7a",
+   "ia_sha1": "15102a3bfa4578cd67ed34df8952ed5064184c7a",
+   "sha1_matches_ia": true,
+   "sha256": "59632526b760472f0345347d30f478975a5a3c88206598d1420bb69b9ae5df4e",
+   "hash_seconds": 1.4,
+   "extracted_files": {
+    "Comments.xml": 428662138,
+    "PostHistory.xml": 2900187244,
+    "Posts.xml": 1400891844
+   }
+  },
+  "serverfault": {
+   "url": "https://archive.org/download/stackexchange/serverfault.com.7z",
+   "size_bytes": 859606467,
+   "expected_size": 859606467,
+   "sha1": "d9e7c0987f9e11c44d279aa95e1345f8563b1f81",
+   "ia_sha1": "d9e7c0987f9e11c44d279aa95e1345f8563b1f81",
+   "sha1_matches_ia": true,
+   "sha256": "8a2fed8620c93c9d94de7fa1722b24e77f802f64cc5ca652652af3adfd946cd8",
+   "hash_seconds": 1.1,
+   "extracted_files": {
+    "Comments.xml": 307582375,
+    "PostHistory.xml": 1964774419,
+    "Posts.xml": 1211184381
+   }
+  }
+ }
+}

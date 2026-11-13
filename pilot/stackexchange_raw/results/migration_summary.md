@@ -1,0 +1,2 @@
+# Migration summary
+Kept: Git history, issue plan, seed-42 convention, Wilson-CI statistic, the entire earlier GitLab/Wikimedia/MANtIS pilot (read-only archive; its Tier-A proxy rates 6/3/11 per 100 are unvalidated and are not reused). Changed: `.gitignore` only (+ raw dir). Not edited yet: README / WORK_PLAN / TASKS (pending the decision). Added: `pilot/stackexchange_raw/` and `docs/stackexchange_migration_audit.md`. The earlier branch contained no retrieval/training code, so nothing of that kind was reused. Full table: `docs/stackexchange_migration_audit.md`.
