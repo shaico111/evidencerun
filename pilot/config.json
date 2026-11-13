@@ -1,0 +1,17 @@
+{
+  "random_seed": 42,
+  "sample_size_per_source": 100,
+  "gitlab": {
+    "project": "gitlab-com/gl-infra/production",
+    "frame_rule": "GET /api/v4/projects/:id/issues?issue_type=incident&state=all (public API, all pages)"
+  },
+  "wikimedia": {
+    "api": "https://wikitech.wikimedia.org/w/api.php",
+    "frame_rule": "action=query&list=allpages&apprefix=Incidents/&apnamespace=0&apfilterredir=nonredirects; keep titles matching ^Incidents/(YYYY-?MM-?DD, digits) with no further '/' subpage"
+  },
+  "mantis": {
+    "source": "https://drive.google.com/file/d/1cWEbTC4klLQDLej--IG2OAZIT4AX549A (json_dataset.7z, linked from github.com/Guzpenha/MANtIS)",
+    "domains": ["apple", "askubuntu", "dba", "electronics", "security"],
+    "frame_rule": "all dialogs (train+dev+test merged files) whose category is in domains; key = split:dialog_id; proportional stratified sample by domain (largest remainder)"
+  }
+}

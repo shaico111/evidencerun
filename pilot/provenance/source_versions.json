@@ -1,0 +1,13 @@
+{
+  "built_at_utc": "2026-11-13T13:06:26.216659+00:00",
+  "seed": 42,
+  "mantis_7z_sha256": "5003e2e2d1cd4f2450dfcbf0840a2043daaf02dc347d81df99de0c9310fc69f0",
+  "mantis_7z_bytes": 77159997,
+  "gitlab_api": "v4, project gitlab-com/gl-infra/production, issue_type=incident",
+  "wikimedia_api": "wikitech.wikimedia.org/w/api.php",
+  "frame_sizes": {
+    "gitlab_frame_size": 5002,
+    "wikimedia_frame_size": 613,
+    "mantis_frame_size": 43043
+  }
+}

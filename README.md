@@ -55,3 +55,7 @@ The focus is data generation, fine-tuning, and evaluation, not a complete techni
 ## Status
 
 Proposed methodology, refined per lecturer feedback (October 2026).
+
+## Dataset feasibility pilot
+
+A measurable dataset feasibility pilot (GitLab incidents, Wikimedia incident reports, MANtIS) is documented in [docs/dataset_feasibility_pilot.md](docs/dataset_feasibility_pilot.md); preliminary automated-proxy results are in [pilot/results/source_comparison.md](pilot/results/source_comparison.md). Human annotation is still pending.

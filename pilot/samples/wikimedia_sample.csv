@@ -1,0 +1,101 @@
+case_id,date,url
+Incidents/20110926-s7switchover,20110926,https://wikitech.wikimedia.org/wiki/Incidents/20110926-s7switchover
+Incidents/20131030-Wikidata-ZeroRatedMobileAccess,20131030,https://wikitech.wikimedia.org/wiki/Incidents/20131030-Wikidata-ZeroRatedMobileAccess
+Incidents/20131118-CirrusSearch,20131118,https://wikitech.wikimedia.org/wiki/Incidents/20131118-CirrusSearch
+Incidents/20140121-BitsApplicationServers,20140121,https://wikitech.wikimedia.org/wiki/Incidents/20140121-BitsApplicationServers
+Incidents/20140206-Math,20140206,https://wikitech.wikimedia.org/wiki/Incidents/20140206-Math
+Incidents/20140529-appservers,20140529,https://wikitech.wikimedia.org/wiki/Incidents/20140529-appservers
+Incidents/20140608-Kafka,20140608,https://wikitech.wikimedia.org/wiki/Incidents/20140608-Kafka
+Incidents/20140613-Videoscalers,20140613,https://wikitech.wikimedia.org/wiki/Incidents/20140613-Videoscalers
+Incidents/20140715 CirrusSearch,20140715,https://wikitech.wikimedia.org/wiki/Incidents/20140715_CirrusSearch
+Incidents/20141106-Labstore,20141106,https://wikitech.wikimedia.org/wiki/Incidents/20141106-Labstore
+Incidents/20141118-m2,20141118,https://wikitech.wikimedia.org/wiki/Incidents/20141118-m2
+Incidents/20141125-EventLogging,20141125,https://wikitech.wikimedia.org/wiki/Incidents/20141125-EventLogging
+Incidents/20150205-EventLogging,20150205,https://wikitech.wikimedia.org/wiki/Incidents/20150205-EventLogging
+Incidents/20150205-SiteOutage,20150205,https://wikitech.wikimedia.org/wiki/Incidents/20150205-SiteOutage
+Incidents/20150331-LabsNFS-Overload,20150331,https://wikitech.wikimedia.org/wiki/Incidents/20150331-LabsNFS-Overload
+Incidents/20150406-Flow,20150406,https://wikitech.wikimedia.org/wiki/Incidents/20150406-Flow
+Incidents/20150408-s2-SiteStatsInit,20150408,https://wikitech.wikimedia.org/wiki/Incidents/20150408-s2-SiteStatsInit
+Incidents/20150409-EventLogging,20150409,https://wikitech.wikimedia.org/wiki/Incidents/20150409-EventLogging
+Incidents/20150424-Parsoid,20150424,https://wikitech.wikimedia.org/wiki/Incidents/20150424-Parsoid
+Incidents/20150506-EventLogging,20150506,https://wikitech.wikimedia.org/wiki/Incidents/20150506-EventLogging
+Incidents/20150515-LabsOutage,20150515,https://wikitech.wikimedia.org/wiki/Incidents/20150515-LabsOutage
+Incidents/20150607-LabsNFS-Outage,20150607,https://wikitech.wikimedia.org/wiki/Incidents/20150607-LabsNFS-Outage
+Incidents/20150812-LabsOutage,20150812,https://wikitech.wikimedia.org/wiki/Incidents/20150812-LabsOutage
+Incidents/20151014-MediaWiki,20151014,https://wikitech.wikimedia.org/wiki/Incidents/20151014-MediaWiki
+Incidents/20151015-EventLogging,20151015,https://wikitech.wikimedia.org/wiki/Incidents/20151015-EventLogging
+Incidents/20151026-MediaWiki,20151026,https://wikitech.wikimedia.org/wiki/Incidents/20151026-MediaWiki
+Incidents/20151218-payments wiki,20151218,https://wikitech.wikimedia.org/wiki/Incidents/20151218-payments_wiki
+Incidents/20160125-EventLogging,20160125,https://wikitech.wikimedia.org/wiki/Incidents/20160125-EventLogging
+Incidents/20160202-deployment-server-loss,20160202,https://wikitech.wikimedia.org/wiki/Incidents/20160202-deployment-server-loss
+Incidents/20160204-Phabricator,20160204,https://wikitech.wikimedia.org/wiki/Incidents/20160204-Phabricator
+Incidents/20160505-ChangeProp RESTBase Parsoid,20160505,https://wikitech.wikimedia.org/wiki/Incidents/20160505-ChangeProp_RESTBase_Parsoid
+Incidents/20160721-LocalRenameUserJob,20160721,https://wikitech.wikimedia.org/wiki/Incidents/20160721-LocalRenameUserJob
+Incidents/20160818-Elasticsearch,20160818,https://wikitech.wikimedia.org/wiki/Incidents/20160818-Elasticsearch
+Incidents/20161112-OurMine,20161112,https://wikitech.wikimedia.org/wiki/Incidents/20161112-OurMine
+Incidents/20161202-20161201-PageImages,20161202,https://wikitech.wikimedia.org/wiki/Incidents/20161202-20161201-PageImages
+Incidents/20161204-labservices1001,20161204,https://wikitech.wikimedia.org/wiki/Incidents/20161204-labservices1001
+Incidents/2017-01-04 MonologSpi,2017-01-04,https://wikitech.wikimedia.org/wiki/Incidents/2017-01-04_MonologSpi
+Incidents/2017-01-18 Labs,2017-01-18,https://wikitech.wikimedia.org/wiki/Incidents/2017-01-18_Labs
+Incidents/2017-01-19 Labstore,2017-01-19,https://wikitech.wikimedia.org/wiki/Incidents/2017-01-19_Labstore
+Incidents/2017-01-24 WikibaseClient-InterwikiSorting,2017-01-24,https://wikitech.wikimedia.org/wiki/Incidents/2017-01-24_WikibaseClient-InterwikiSorting
+Incidents/2017-02-22 www-portals,2017-02-22,https://wikitech.wikimedia.org/wiki/Incidents/2017-02-22_www-portals
+Incidents/2017-03-22 AuthDNS,2017-03-22,https://wikitech.wikimedia.org/wiki/Incidents/2017-03-22_AuthDNS
+Incidents/2017-03-23 wikibase,2017-03-23,https://wikitech.wikimedia.org/wiki/Incidents/2017-03-23_wikibase
+Incidents/2017-04-26 ORES,2017-04-26,https://wikitech.wikimedia.org/wiki/Incidents/2017-04-26_ORES
+Incidents/2017-06-16 PHAB,2017-06-16,https://wikitech.wikimedia.org/wiki/Incidents/2017-06-16_PHAB
+Incidents/2017-07-18 JobQueue,2017-07-18,https://wikitech.wikimedia.org/wiki/Incidents/2017-07-18_JobQueue
+Incidents/2017-11-28 ORES,2017-11-28,https://wikitech.wikimedia.org/wiki/Incidents/2017-11-28_ORES
+Incidents/2017-11-30 wdqs,2017-11-30,https://wikitech.wikimedia.org/wiki/Incidents/2017-11-30_wdqs
+Incidents/20170617-Phabricator-spam,20170617,https://wikitech.wikimedia.org/wiki/Incidents/20170617-Phabricator-spam
+Incidents/20170629-Labstore Kernel Upgrade,20170629,https://wikitech.wikimedia.org/wiki/Incidents/20170629-Labstore_Kernel_Upgrade
+Incidents/20170629-ganeti,20170629,https://wikitech.wikimedia.org/wiki/Incidents/20170629-ganeti
+Incidents/2018-01-10 swift,2018-01-10,https://wikitech.wikimedia.org/wiki/Incidents/2018-01-10_swift
+Incidents/2018-02-20 thumbor,2018-02-20,https://wikitech.wikimedia.org/wiki/Incidents/2018-02-20_thumbor
+Incidents/2018-02-29 Train-1.31.0-wmf.27,2018-02-29,https://wikitech.wikimedia.org/wiki/Incidents/2018-02-29_Train-1.31.0-wmf.27
+Incidents/2018-06-26 LoadBalancers,2018-06-26,https://wikitech.wikimedia.org/wiki/Incidents/2018-06-26_LoadBalancers
+Incidents/2018-07-10 MediaWiki,2018-07-10,https://wikitech.wikimedia.org/wiki/Incidents/2018-07-10_MediaWiki
+Incidents/2018-12-18 train-1.33.0-wmf.9,2018-12-18,https://wikitech.wikimedia.org/wiki/Incidents/2018-12-18_train-1.33.0-wmf.9
+Incidents/20180222-wdqs,20180222,https://wikitech.wikimedia.org/wiki/Incidents/20180222-wdqs
+Incidents/2019-02-11 varnish,2019-02-11,https://wikitech.wikimedia.org/wiki/Incidents/2019-02-11_varnish
+Incidents/2019-04-07 Zotero,2019-04-07,https://wikitech.wikimedia.org/wiki/Incidents/2019-04-07_Zotero
+Incidents/2019-04-17 Jobqueue,2019-04-17,https://wikitech.wikimedia.org/wiki/Incidents/2019-04-17_Jobqueue
+Incidents/2019-05-06 zuul,2019-05-06,https://wikitech.wikimedia.org/wiki/Incidents/2019-05-06_zuul
+Incidents/2019-06-19 JobQueue,2019-06-19,https://wikitech.wikimedia.org/wiki/Incidents/2019-06-19_JobQueue
+Incidents/2019-07-15 maps,2019-07-15,https://wikitech.wikimedia.org/wiki/Incidents/2019-07-15_maps
+Incidents/2019-07-23 network eqiad,2019-07-23,https://wikitech.wikimedia.org/wiki/Incidents/2019-07-23_network_eqiad
+Incidents/2019-08-20 logstash,2019-08-20,https://wikitech.wikimedia.org/wiki/Incidents/2019-08-20_logstash
+Incidents/2019-09-23 s3 primary db master crash,2019-09-23,https://wikitech.wikimedia.org/wiki/Incidents/2019-09-23_s3_primary_db_master_crash
+Incidents/2019-12-31 search-api-traffic-block,2019-12-31,https://wikitech.wikimedia.org/wiki/Incidents/2019-12-31_search-api-traffic-block
+Incidents/20190115-PDU-fuses-blown,20190115,https://wikitech.wikimedia.org/wiki/Incidents/20190115-PDU-fuses-blown
+Incidents/20190308-maps,20190308,https://wikitech.wikimedia.org/wiki/Incidents/20190308-maps
+Incidents/2020-03-19 parsercache,2020-03-19,https://wikitech.wikimedia.org/wiki/Incidents/2020-03-19_parsercache
+Incidents/2020-05-01 vc-link-failure,2020-05-01,https://wikitech.wikimedia.org/wiki/Incidents/2020-05-01_vc-link-failure
+Incidents/2020-05-11 thumbor,2020-05-11,https://wikitech.wikimedia.org/wiki/Incidents/2020-05-11_thumbor
+Incidents/2020-10-06 cloud-vps,2020-10-06,https://wikitech.wikimedia.org/wiki/Incidents/2020-10-06_cloud-vps
+Incidents/2021-01-16 appserver latency,2021-01-16,https://wikitech.wikimedia.org/wiki/Incidents/2021-01-16_appserver_latency
+Incidents/2021-04-03 mailman2 attachments,2021-04-03,https://wikitech.wikimedia.org/wiki/Incidents/2021-04-03_mailman2_attachments
+Incidents/2021-10-08 network provider,2021-10-08,https://wikitech.wikimedia.org/wiki/Incidents/2021-10-08_network_provider
+Incidents/2021-11-04 large file upload timeouts,2021-11-04,https://wikitech.wikimedia.org/wiki/Incidents/2021-11-04_large_file_upload_timeouts
+Incidents/2021-11-25 eventgate-main outage,2021-11-25,https://wikitech.wikimedia.org/wiki/Incidents/2021-11-25_eventgate-main_outage
+Incidents/2021-12-03 mx,2021-12-03,https://wikitech.wikimedia.org/wiki/Incidents/2021-12-03_mx
+Incidents/2022-02-22 vrts,2022-02-22,https://wikitech.wikimedia.org/wiki/Incidents/2022-02-22_vrts
+Incidents/2022-07-11 Shellbox and parsoid saturation,2022-07-11,https://wikitech.wikimedia.org/wiki/Incidents/2022-07-11_Shellbox_and_parsoid_saturation
+Incidents/2022-08-16 Beta Cluster 502,2022-08-16,https://wikitech.wikimedia.org/wiki/Incidents/2022-08-16_Beta_Cluster_502
+Incidents/2022-09-15 sessionstore quorum issues,2022-09-15,https://wikitech.wikimedia.org/wiki/Incidents/2022-09-15_sessionstore_quorum_issues
+Incidents/2023-01-30 kartotherian,2023-01-30,https://wikitech.wikimedia.org/wiki/Incidents/2023-01-30_kartotherian
+Incidents/2023-05-05 prometheus down in ulsfo and eqsin,2023-05-05,https://wikitech.wikimedia.org/wiki/Incidents/2023-05-05_prometheus_down_in_ulsfo_and_eqsin
+Incidents/2023-09-20 Elasticsearch unavailable,2023-09-20,https://wikitech.wikimedia.org/wiki/Incidents/2023-09-20_Elasticsearch_unavailable
+Incidents/2024-03-27 Elasticsearch Omega Cluster Failure,2024-03-27,https://wikitech.wikimedia.org/wiki/Incidents/2024-03-27_Elasticsearch_Omega_Cluster_Failure
+Incidents/2024-04-26 Search unavailable for some eqiad users,2024-04-26,https://wikitech.wikimedia.org/wiki/Incidents/2024-04-26_Search_unavailable_for_some_eqiad_users
+Incidents/2024-06-21 - 2024-06-24 Outage Incidents - Dumps Generation Issues,2024-06-21,https://wikitech.wikimedia.org/wiki/Incidents/2024-06-21_-_2024-06-24_Outage_Incidents_-_Dumps_Generation_Issues
+Incidents/2024-09-23 pc1013 hardware issue,2024-09-23,https://wikitech.wikimedia.org/wiki/Incidents/2024-09-23_pc1013_hardware_issue
+Incidents/2024-12-03 Port saturation from cached Varnish HEAD-GET upgrades,2024-12-03,https://wikitech.wikimedia.org/wiki/Incidents/2024-12-03_Port_saturation_from_cached_Varnish_HEAD-GET_upgrades
+Incidents/2025-02-28 www.wikipedia.org redirect,2025-02-28,https://wikitech.wikimedia.org/wiki/Incidents/2025-02-28_www.wikipedia.org_redirect
+Incidents/2025-05-09 Missing autocomplete indices,2025-05-09,https://wikitech.wikimedia.org/wiki/Incidents/2025-05-09_Missing_autocomplete_indices
+Incidents/2025-07-11 WMCS Ceph issues causing Toolforge and Cloud VPS failures,2025-07-11,https://wikitech.wikimedia.org/wiki/Incidents/2025-07-11_WMCS_Ceph_issues_causing_Toolforge_and_Cloud_VPS_failures
+Incidents/2025-07-17 Cite + VisualEditor list-defined reference disappearances,2025-07-17,https://wikitech.wikimedia.org/wiki/Incidents/2025-07-17_Cite_%2B_VisualEditor_list-defined_reference_disappearances
+Incidents/2025-09-25 wdqs,2025-09-25,https://wikitech.wikimedia.org/wiki/Incidents/2025-09-25_wdqs
+Incidents/2025-11-04 wdqs codfw overload,2025-11-04,https://wikitech.wikimedia.org/wiki/Incidents/2025-11-04_wdqs_codfw_overload
+Incidents/2025-11-05 WMCS toolsdb primary out of space,2025-11-05,https://wikitech.wikimedia.org/wiki/Incidents/2025-11-05_WMCS_toolsdb_primary_out_of_space
+Incidents/2025-11-11 WMCS toolsdb primary down,2025-11-11,https://wikitech.wikimedia.org/wiki/Incidents/2025-11-11_WMCS_toolsdb_primary_down
